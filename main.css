@@ -1,0 +1,191 @@
+
+/* font-family: 'Great Vibes', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Mulish', sans-serif;
+*/
+
+h1,h2,h3,h4,h5,h6,hgroup,
+ul,ol,dd,
+p,figure,
+pre,table,fieldset,
+img,
+.header, section, footer {
+    padding-bottom: .5rem;
+}
+/* ==== Body Style ==== */ 
+body { 
+    color: #444349;
+    box-sizing: border-box;
+    background-image: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png');
+}
+a { color: #bd806e; text-decoration: none; }
+/* ===== Header Style ==== */
+.cover {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70% center/cover;
+    background-attachment: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    height: 100vh;
+    width: auto;
+}
+.header-wrapper { background-color: rgba(0,0,0,.5); width: 50%; }
+.tagline,
+.date {
+    color: hsla(0,0%,100%,.9);
+    font-family: 'Libre Baskerville', serif;
+    margin: .8rem;
+    letter-spacing: .3rem;
+}
+.headline {
+    margin: 0 auto;
+    width: 40%;
+    font-family: 'Great Vibes', cursive;
+    color: #d2ba87;
+    font-size: 2rem;
+    border-top: 1px solid hsla(0,0%,100%,.9);
+    padding: 1rem 0 .5rem 0;
+}
+
+/* ===== Section's Style ===== */ 
+section, footer { font-family: 'Mulish', sans-serif; }
+section h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.7rem;
+    font-weight: 600;
+    padding: 1.5rem 0 1rem 1rem;
+    text-align: center;
+}
+section h3 {
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: .5rem 0 1rem 0;
+}
+section img { width: 25%; height: 25%; }
+
+/* ===== Location's - styles ===== */
+
+.locations { text-align: center; }
+.locations p {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.4rem;
+    padding: 1rem;
+}
+.locations hr { width: 20%; border: 2px solid #444349; }
+
+/* ===== Program - styles ===== */
+.program, .qa {
+    background-color: hsla(100,0%,0%,.6);
+    color: #d2ba87; 
+    font-weight: 700;
+}
+.program blockquote {
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 1.8rem;
+}
+.program ul {
+    margin-left: 1rem;
+    line-height: 1.5rem;
+    padding-bottom: 2rem;
+    margin-bottom: 0;
+}
+/* ===== Program - styles ===== */
+.gifts { text-align: center; }
+.gifts p {
+    padding: 1.5rem;
+    color: #444349; 
+    font-weight: bold;
+    line-height: 1.3rem;
+}
+/* ===== Q&A - styles ===== */
+.travel { padding-bottom: 1rem; }
+.qa p { margin-left: 1rem; }
+.answer { font-weight: lighter; color: silver; }
+.qa hr { width: 50%; border: 1.5px solid #d2ba87; }
+/* ===== Contact - styles ===== */
+.contact p { text-align: center; font-weight: bold; }
+/* ===== Footer style ===== */
+footer {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 600;
+    color: aliceblue;
+    background-color: #444349;
+}
+footer p { padding-top: 1.5rem; line-height: 1.2rem; }
+
+@media (min-width: 800px) {
+    .cpp { display: flex; justify-content: center; width: 95%; }
+    .ceremony, .photos, .party { width: 33.3%; height: 100%; }
+    hr { display: none; }
+    blockquote { width: 100%; }
+    .program-wrapper { display: flex; flex-wrap: wrap; justify-content: center; align-items: center;}
+    .travel, .food, .other {
+        width: 30%;
+        float: left;
+        margin-left: 1rem;
+    }
+    .qa-wrapper { display: flex; justify-content: center; align-items: center;  }
+    .qa::after {
+        content: "";
+        clear: both;
+        display: block;
+
+    }
+
+    
+
+
+
+
+}
+  /*  .ceremony {
+        float: left;
+    }
+    .photos {
+        float: left;
+    }
+    .party {
+        float: left;
+    }
+    .location::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
